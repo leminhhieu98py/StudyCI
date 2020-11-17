@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-data{
+    margin: 20px 0;
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    border: 2px #007bff solid;
+    border-radius: 5px;
+    outline: none;
+}
+
+#add-btn{
+    margin-left: 5px;
+    width: 60px;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+#add-btn:hover{
+    background-color: #064c96;
+}
+
+.to-do-task{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f4f4f4;
+    width: 465px;
+    border-radius: 5px;
+    padding: 15px 0;
+}
+.checkbox{
+    margin: 0 20px;
+}
+
+.to-do-tasks{
+    height: 40px;
+    width: 300px;
+    background-color: #f4f4f4;
+    border: none;
+    margin-right: 20px;
+}
+
+.to-do-tasks:focus{
+    outline: none;
+}
+
+.delete-btn{
+    width: 80px;
+    height: 40px;
+    background-color: rgba(218, 56, 56, 0.986);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.delete-btn:hover {
+    background-color:  rgba(136, 39, 39, 0.986);
+}
