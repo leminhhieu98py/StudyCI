@@ -1,0 +1,9 @@
+#search-bar{
+    height: 3rem;
+    width: 90vw;
+    margin: 2rem 2rem;
+    padding: 5px 15px;
+    border-radius: 20px;
+    outline: none;
+    font-size: large;
+}
