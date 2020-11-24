@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header button{
+    width: 30%;
+    height: 50%;
+    font-size: 30px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    cursor: pointer;
+    outline: none;
+    margin: 30px;
+}
+img{
+    height: 90%;
+    margin: 10px;
+}
+.main-content{
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    overflow: hidden;
+}
+.instruction{
+    margin: 0 30px;
+}
+.to-top{
+    margin-top: 10px;
+}
+.foot-left{
+    margin-top: 50px;
+    margin-left: 50px;
+    flex-basis: 30%;
+    justify-content: center;
+}.foot-right{
+    margin-left: 50px;
+    margin-top: 50px;
+    flex-basis: 60%;
+    justify-content: center;
+}
